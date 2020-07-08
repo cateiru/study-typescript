@@ -1,7 +1,7 @@
 {
   "name": "tsc-study",
   "version": "1.0,0",
-  "description": "study to TypeScript",
+  "description": "study for TypeScript",
   "main": "index.js",
   "author": {
     "name": "Yuto Watanabe"
