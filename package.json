@@ -1,5 +1,17 @@
 {
+  "name": "tsc-study",
+  "version": "1.0,0",
+  "description": "study to TypeScript",
+  "main": "index.js",
+  "author": {
+    "name": "Yuto Watanabe"
+  },
+  "license": "MIT",
   "dependencies": {
     "typescript": "^3.9.6"
+  },
+  "scripts": {
+    "tsc": "./node_modules/.bin/tsc",
+    "build": "webpack"
   }
 }

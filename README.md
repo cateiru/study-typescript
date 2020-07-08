@@ -1,2 +1,3 @@
 # study-typescript
-Typescriptの勉強
+
+TypeScriptの勉強
