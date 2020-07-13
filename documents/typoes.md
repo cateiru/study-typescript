@@ -56,7 +56,7 @@ const c: 'foo' = a; // error
 - オブジェクトとは
   - 任意の数のプロパティがそれぞれ値を保持している構造。
   - `{foo: string; bar: number}`などという型。
-- Insterfaceとは
+- Interfaceとは
   - オブジェクト型に名前をつけることができるもの。
 
 ```typescript
@@ -202,7 +202,7 @@ interfaceと代替可能な例:
 
 ```typescript
 interface MyFoo {
-  mathod: () => void;
+  method: () => void;
 }
 
 class Foo {
