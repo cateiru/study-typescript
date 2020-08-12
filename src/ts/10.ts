@@ -1,4 +1,4 @@
-function main(): void {
+function main_1(): void {
     const num: number = 10;
 
     console.log(`number of ${num}`);
@@ -10,4 +10,4 @@ function main(): void {
     }
 }
 
-main()
+main_1()
