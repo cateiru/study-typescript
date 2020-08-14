@@ -1,5 +1,5 @@
-import {Data, Node, Input, Output, convert} from './7';
 import * as fs from 'fs';
+import {Data, Node, Input, Output, convert} from './7';
 
 function main(): void {
 
@@ -32,7 +32,7 @@ function main(): void {
     }
 
     const path = 'test.sol';
-    var solidity: string[] = convert(inputData);
+    const solidity: string[] = convert(inputData);
 
     console.log(solidity);
     fs.writeFileSync(path, solidity.join('\n'), 'utf-8');

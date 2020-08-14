@@ -1,5 +1,5 @@
 function main_1(): void {
-    const num: number = 10;
+    const num = 10;
 
     console.log(`number of ${num}`);
 

@@ -1,3 +1,3 @@
-let hode: string = "Hello";
-let fuga: number = 1024;
-let flag: boolean = false;
+const hode = "Hello";
+const fuga = 1024;
+const flag = false;

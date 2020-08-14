@@ -21,10 +21,10 @@ export class Opsets {
     nodes: ReadonlyArray<Node>;
 
     constructor (data: Data){
-        var dict: inputDict[] = [];
+        const dict: inputDict[] = [];
 
-        for (let index in data.inputs){
-            for (let output of data.inputs[index].outputs){
+        for (const index in data.inputs){
+            for (const output of data.inputs[index].outputs){
                 dict.push({
                     num: output,
                     name: data.inputs[index].name
@@ -42,7 +42,7 @@ export class Opsets {
             return [];
         }
 
-        var output: string[] = [];
+        const output: string[] = [];
         return output;
     }
 

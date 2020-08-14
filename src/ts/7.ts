@@ -33,21 +33,21 @@ export function convert(data: Data): string[] {
     // TODO: outputの変数作成
     // TODO: 計算
 
-    const contractName: string = 'Calculation';
-    const inputFunctionName: string = 'input_';
-    const evaluateFunctionName: string = 'evaluate';
-    const calculate: string = 'a + b';
+    const contractName = 'Calculation';
+    const inputFunctionName = 'input_';
+    const evaluateFunctionName = 'evaluate';
+    const calculate = 'a + b';
 
 
-    var solidity = ['pragma solidity ^0.6.9;', ''];
+    const solidity = ['pragma solidity ^0.6.9;', ''];
 
     solidity.push(`contract ${contractName} {`)
 
-    for(let element of data.inputs){
+    for(const element of data.inputs){
         solidity.push(`  int256 public ${element.name};`);
     }
 
-    for(let element of data.inputs){
+    for(const element of data.inputs){
         solidity.push(
             '',
             `  function ${inputFunctionName + element.name}(int256 input_number) public {`,

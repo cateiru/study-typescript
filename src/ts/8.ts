@@ -10,7 +10,7 @@ function fibonacci(n: number): number {
 }
 
 function main(): void {
-    const inputNumber: number = 10;
+    const inputNumber = 10;
     const outputNumber: number = fibonacci(inputNumber);
 
     console.log(outputNumber);

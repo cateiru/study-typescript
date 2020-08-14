@@ -6,7 +6,7 @@ function main_2(): void {
 
     // ~~() 2重の否定ビット演算子をしようすることでMath.floor()の高速な代替として利用できる
 
-    for (let index in a){
+    for (const index in a){
         console.log(~~(a[index] + 0.11));
         console.log(Math.floor(a[index] + 0.11));
     }

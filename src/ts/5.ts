@@ -2,9 +2,9 @@ import { readFile } from 'fs';
 import {promisify} from 'util';
 
 async function main(): Promise<Buffer> {
-    var a: string = 'HelloWorld';
+    const a = 'HelloWorld';
 
-    var b = await promisify(readFile)(a);
+    const b = await promisify(readFile)(a);
     return b;
 }
 
