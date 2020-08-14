@@ -8,16 +8,21 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@types/eslint": "^7.2.0",
     "@types/fs-extra": "^9.0.1",
     "@types/long": "^4.0.1",
     "@types/node": "^14.0.22",
     "@types/npmlog": "^4.1.2",
     "@types/platform": "^1.3.2",
+    "@typescript-eslint/eslint-plugin": "^3.9.0",
+    "@typescript-eslint/parser": "^3.9.0",
+    "eslint": "^7.6.0",
     "platform": "^1.3.6",
     "tslib": "^2.0.0"
   },
   "scripts": {
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "lint": "eslint . --ext .ts --config .eslintrc"
   },
   "devDependencies": {
     "ts-node": "^8.10.2",

@@ -7,7 +7,7 @@ class処理を使用し、コンストラクタ部分でmodelのinput部分を�
 
  function Add(inputs: number[], output)
 */
-import {Data, Node, Input, Output, convert} from './7';
+import {Data, Node, Input, Output} from './7';
 
 interface inputDict {
     num: number,
@@ -43,10 +43,6 @@ export class Opsets {
         }
 
         var output: string[] = [];
-
-
-
-
         return output;
     }
 
