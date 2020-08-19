@@ -3,7 +3,7 @@
 ## install
 
 ```bash
-yarn add @typescript-eslint/eslint-plugin @typescript-eslint/parser @types/eslint eslint-plugin-import eslint
+yarn add -D @typescript-eslint/eslint-plugin @typescript-eslint/parser @types/eslint eslint-plugin-import eslint
 ```
 
 ## .eslintrc
